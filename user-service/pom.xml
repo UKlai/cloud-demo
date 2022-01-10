@@ -45,6 +45,11 @@
             <artifactId>junit</artifactId>
             <scope>test</scope>
         </dependency>
+        <!--nacos配置管理依赖-->
+        <dependency>
+            <groupId>com.alibaba.cloud</groupId>
+            <artifactId>spring-cloud-starter-alibaba-nacos-config</artifactId>
+        </dependency>
     </dependencies>
     <build>
         <finalName>app</finalName>
